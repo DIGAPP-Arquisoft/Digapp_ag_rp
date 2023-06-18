@@ -4,7 +4,7 @@ FROM nginx:1.17.8-alpine
 COPY default.conf /etc/nginx/conf.d/default.conf
 
 # Copy the remaining
-COPY . .
+COPY . /etc/nginx/conf.d
 
 # Expose port
 EXPOSE 444

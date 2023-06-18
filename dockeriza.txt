@@ -4,3 +4,5 @@ comando para copiar todo el directorio el directorio solo debe contener (certifi
 editar este comando en la ruta local segun corresponda. en este caso mi usuario es crisp y tengo el archivo guardado en descargas en una carpta llamada Digapp_wa_rp
 
 docker run --name digapp_wa_rp -p 444:444 -v D:\crisp\Descargas\Digapp_wa_rp:/etc/nginx/conf.d -d nginx
+
+docker run --name digapp_wa_rp -p 444:444 -v /Users/juansevargas/Documents/University/2023-II/project/Digapp_wa_rp:/etc/nginx/conf.d -d nginx
